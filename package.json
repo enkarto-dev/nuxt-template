@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "git:commit": "git-cz"
+    "git:commit": "git add . && git-cz"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
