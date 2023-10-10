@@ -7,13 +7,15 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "git:commit": "git add -A && git-cz"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/i18n": "^8.0.0-rc.5",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "nuxt": "^3.7.4"
+    "nuxt": "^3.7.4",
+    "git-cz": "^4.9.0"
   },
   "dependencies": {
     "@nuxt/image": "^1.0.0-rc.3",
