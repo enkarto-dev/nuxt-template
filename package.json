@@ -12,9 +12,17 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "git-cz": "^4.9.0",
+    "@nuxtjs/i18n": "^8.0.0-rc.5",
+    "@nuxtjs/tailwindcss": "^6.8.0",
     "nuxt": "^3.7.4",
-    "vue": "^3.3.4",
-    "vue-router": "^4.2.5"
+    "git-cz": "^4.9.0"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.0.0-rc.3",
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.6"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }
